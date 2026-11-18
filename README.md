@@ -24,7 +24,7 @@ Sit at a table, put the headset down, and keep your controllers aside: STRINGS u
 Push the rival off the round stage to win a round, best of three. After 18 seconds the stage starts to shrink. After the first match, the Puppet Workshop lets you dress your puppet and design your next rival with finger curls. The ladder: Pip, your designed rival, Madame Rue, Iron Bruno, Silk, then the Puppetmaster. If a hand leaves the tracking view, the fight pauses until both hands are back.
 
 ## Install (judges)
-Use the Meta Horizon release channel invite link from the Devpost page and choose **Install on headset**. To sideload instead: `adb install STRINGS_v3f_signed.apk` (from the judges' zip), then open it from Library > Unknown Sources.
+Use the Meta Horizon release channel invite link from the Devpost page and choose **Install on headset**. To sideload instead: `adb install STRINGS_v3f_sdk34_signed.apk` (from the judges' zip), then open it from Library > Unknown Sources.
 
 ## Repository layout
 ```
@@ -47,7 +47,7 @@ Unity 6000.0.85f2 with the Meta XR SDK (`com.meta.xr.sdk.all`) and OpenXR, Andro
 Unity 6, C#, Meta XR SDK, OpenXR, Meta Quest hand tracking, ElevenLabs (announcer voice, sound effects and music).
 
 ## Honest status
-The gesture decoder was tuned in a headless gesture simulator that replays noisy finger curves through the real input code, and full tournaments were played headless by the autopilot. The build launches on a Quest 3S; gesture accuracy with real hands has not yet been measured.
+The gesture decoder was tuned in a headless gesture simulator that replays noisy finger curves through the real input code, and full tournaments were played headless by the autopilot. The build has been played on a Quest 3S with real hands.
 
 ## Author
 Suchit SM (smsuchit123@gmail.com)

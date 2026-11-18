@@ -1,0 +1,13 @@
+Library/
+Temp/
+Obj/
+Build/
+Builds/
+Logs/
+UserSettings/
+*.apk
+*.idsig
+*.keystore
+*.pass
+.env
+__pycache__/
